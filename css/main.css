@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --- navbar start --- */
+header {
+  background:#08546C;;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+header nav {
+  background: url(../images/backgraund.png);
+}
+.container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  display: flex;
+  max-width: 1920px;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+
+}
+.brend {
+    display: flex;
+    max-width: 70px;
+  padding-left: 30px;
+}
+.brend p{
+    display: flex;
+ 
+    color: #FFF;
+font-size: 30px;
+font-weight: 700;
+}
+.navbar li {
+  padding: 31px 20px;
+}
+a {
+  text-decoration: none;
+  color: #969696;
+}
+.navbar :hover {
+background: #145E76;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: dashed;
+}
+.menu {
+  display: none;
+}
+.navbar-kard-search{
+padding: 14px 35px;
+  border-radius: 25px;
+background: #145E76;
+border: none;
+}
+/* --- navbar end --- */
+section{
+      background:#08546C;;
+}
+.home{
+
+  display: flex;
+  max-width: 1920px;
+  float: 50%;
+}
+
+    .home-container{
+display: flex;
+width: 1920px;
+flex-wrap: wrap;
+justify-content:space-around;
+
+    }
+.texts{
+    display: flex;
+    flex-wrap: wrap;
+max-width: 537px;
+max-height: 548px;
+
+}
+.btn-about{
+    padding: 16px 30px;
+    border: none;
+border-radius: 30px;
+background: #094556;
+color: #FFF;
+}
+.texts h1{
+    max-width: 537px;
+color: #FFF;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+}
+.texts p{
+max-width: 511px;
+max-height: 58px;
+
+color: #849499;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+}
+.btn-1{
+    padding: 16px 35px;
+    border-radius: 25px;
+background: #FFA63A;
+}
+.btn-2{
+  display: flex;
+    /* padding: 16px 35px; */
+    margin-left: 50px;
+    align-items: center;
+    color: #FFF;
+}
+.btn-1:hover{
+  color: #FFF;
+  cursor: pointer;
+}
+.btn-2:hover{
+color: #FFA63A;
+cursor: pointer;
+
+}
+.images{
+  margin-top: 248px;
+}
+.box-kard .container{
+  display: flex;
+}
+
+.boxs{
+ text-align: center; 
+ margin-top: 200px;
+}
+.boxs>h1{
+  color: #08546C;
+font-size: 45px;
+font-weight: 600;
+line-height: 60px;
+margin-bottom: 30px; /* 133.333% */
+} 
+
+.box-kard{
+  display: flex;
+  width: 1920px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.boxs a{
+  display: block;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.box {
+  display: flex;
+  width: 273px;
+height: 251px;
+flex-shrink: 0;
+flex-wrap: wrap;
+  box-shadow: 0px 4px 22px 0px rgba(95, 95, 95, 0.05);
+  background: #FFF;
+}
+.box svg{
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50%;
+width: 60px;
+fill: #F5FBFC;
+margin-bottom: 30px ;
+}
+.box h1 {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.box p {
+
+}
+.box:hover{
+  background: #08546C;
+  cursor: pointer;
+
+}
+.box svg:hover{
+  background-color: #FFA63A;
+}
+.kard{
+  display: flex;
+  justify-content: center;
+  width: 1920px;
+}
+.kard img{
+  width: 100%;
+  text-align: center;
+}
+.kard-container{
+display: flex;
+flex-wrap: wrap;
+  justify-content: center;
+  width: 1920px;
+  background-color: #FFF;
+
+}
+.kard-container img{
+  width: 1000px;
+  text-align: center;
+
+
+}
+
+/* .box2 {
+  display: inline-block;
+  margin: 0 40px 0;
+  width: 320px;
+  pad: 30px;
+  border-radius: 23px;
+  box-shadow: 0px 4px 22px 0px rgba(95, 95, 95, 0.05);
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.box2 p {
+  margin: 25px 67px 60px 68px;
+  padding: 30px;
+}
+
+.box2 h1 {
+  margin: 25px 85px;
+  width: 150px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.box3 {
+  display: inline-block;
+
+  width: 320px;
+  pad: 30px;
+  border-radius: 23px;
+  box-shadow: 0px 4px 22px 0px rgba(95, 95, 95, 0.05);
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.box3 p {
+  margin: 40px 67px 60px 68px;
+  padding: 30px;
+}
+
+.box3 h1 {
+  margin: 25px 85px;
+  width: 150px;
+  height: 35px;
+  flex-shrink: 0;
+} */
+
+
